@@ -6,13 +6,19 @@ public class BarrierSpawnerBehaviour : MonoBehaviour
 
     [Header("Spawning Details")]
     [SerializeField] private float _maxSpawnInterval;
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     [SerializeField] private float SpawnInterval;
 =======
+=======
+>>>>>>> Stashed changes
 
 >>>>>>> game/snow-battle
     [SerializeField] private float timer = 0f;
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     private void Start()
     {
         _maxSpawnInterval = Random.Range(0.5f, 4f);
