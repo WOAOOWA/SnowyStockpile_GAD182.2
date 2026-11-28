@@ -10,6 +10,7 @@ public class KiwiBehaviour : MonoBehaviour
     private bool isGrounded; // Checks dino's hability to jump.
 
     [SerializeField] private Rigidbody2D kiwiRigidbody;
+    [SerializeField] GameObject restartUI;
 
     [SerializeField] private float _jumpHeight = 10f;
     [SerializeField] private float _rayLenght = 1f;
@@ -17,6 +18,8 @@ public class KiwiBehaviour : MonoBehaviour
 
     private void Start()
     {
+        restartUI.SetActive(false);
+
         Time.timeScale = 1f;
         isAlive = true;
 
@@ -54,6 +57,7 @@ public class KiwiBehaviour : MonoBehaviour
             Debug.Log("YEOWCH");
             Time.timeScale = 0f;
             isAlive = false; // OH
+            restartUI.SetActive(true);
         }
     }
     public void Jump(InputAction.CallbackContext callbackContext) // Uses unity Input system.

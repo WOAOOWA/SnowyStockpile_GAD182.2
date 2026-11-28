@@ -5,26 +5,20 @@ using UnityEngine.InputSystem;
 public class AimNShoot : MonoBehaviour
 {
     [SerializeField] private GameObject cannon;
-<<<<<<< HEAD
+
     [SerializeField] private GameObject snowBall;
 
     private Vector2 worldPosition;
     private Vector2 direction;
     private float angle;
-=======
 
-    private Vector2 worldPosition;
-    private Vector2 direction;
->>>>>>> game/snow-battle
-
-    // Update is called once per frame
     void Update()
     {
         HandleCannonHandle();
-<<<<<<< HEAD
+
         HandleCannonShooting();
-=======
->>>>>>> game/snow-battle
+
+
     }
 
     private void HandleCannonHandle()
@@ -34,7 +28,6 @@ public class AimNShoot : MonoBehaviour
         direction = (worldPosition - (Vector2)cannon.transform.position).normalized; // (Vector2) is added because cannon.transform.position is actually a Vector3. // Normalized helps unity to Handles (0, 0, 0) safely/don't get weird behavior
         cannon.transform.right = direction; // Rotate the cannon to point towards the mouse position.
 
-<<<<<<< HEAD
         Debug.Log("Move!");
 
         // Flip cannon to left.
@@ -60,7 +53,5 @@ public class AimNShoot : MonoBehaviour
             Debug.Log("fire!");
             // Implement shooting logic here.
         }
-=======
->>>>>>> game/snow-battle
     }
 }

@@ -6,7 +6,7 @@ public class TimeScript : MonoBehaviour
 {
     [SerializeField] KiwiBehaviour kiwiBehaviour;
     [SerializeField] TextMeshProUGUI scoreUI;
-    [SerializeField] TextMeshProUGUI RestartUI;
+    [SerializeField] public TextMeshProUGUI RestartUI;
 
     private int kiwiRun = 0;
     public float scoreTimer = 0f;

@@ -320,7 +320,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5451163063855303402, guid: ee409c4aef382754db5e8f31d8614719, type: 3}
   m_PrefabInstance: {fileID: 8417746128573428317}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2012718656}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -337,66 +337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
---- !u!1001 &1987383379
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1665570460366385711, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_Name
-      value: SnowPile
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -15.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7493008331357473236, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1d664eff10612c64ba6070d54afec0f5, type: 3}
-=======
->>>>>>> game/snow-battle
+--- !u!1 &2012718656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8884837031288746037, guid: ee409c4aef382754db5e8f31d8614719, type: 3}
+  m_PrefabInstance: {fileID: 8417746128573428317}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2382558089238852133
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -445,13 +390,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 3350495549251991181, guid: 7da7c5862f57c9249aec76c154e0dbbc, type: 3}
       propertyPath: timer
       value: 0
       objectReference: {fileID: 0}
-=======
->>>>>>> game/snow-battle
     - target: {fileID: 8705930549982484705, guid: 7da7c5862f57c9249aec76c154e0dbbc, type: 3}
       propertyPath: m_Name
       value: BarrierSpawner
@@ -7535,6 +7477,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5592196801018619769, guid: e818a98a6feca814c958b4f34ae8b580, type: 3}
+      propertyPath: restartUI
+      value: 
+      objectReference: {fileID: 2012718656}
+    - target: {fileID: 5592196801018619769, guid: e818a98a6feca814c958b4f34ae8b580, type: 3}
       propertyPath: _groundLayer.m_Bits
       value: 64
       objectReference: {fileID: 0}
@@ -7736,7 +7682,3 @@ SceneRoots:
   - {fileID: 2382558089238852133}
   - {fileID: 8417746128573428317}
   - {fileID: 3876187291361545352}
-<<<<<<< HEAD
-  - {fileID: 1987383379}
-=======
->>>>>>> game/snow-battle
